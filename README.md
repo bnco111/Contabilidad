@@ -2,35 +2,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarjeta de Contacto - Contabilidad</title>
+    <title>Tarjeta de Contacto</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #eef2f3;
+            background: linear-gradient(135deg, #2c3e50, #4ca1af);
+            margin: 0;
         }
         .card {
             background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
             text-align: center;
-            max-width: 350px;
-            border-left: 5px solid #2c3e50;
+            max-width: 400px;
+            position: relative;
+            overflow: hidden;
         }
-        .card h2 {
-            margin: 0;
-            color: #2c3e50;
-        }
-        .card p {
-            margin: 5px 0;
-            color: #555;
+        .card::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 8px;
+            background: #4ca1af;
+            top: 0;
+            left: 0;
         }
         .icon {
-            font-size: 50px;
+            font-size: 60px;
+            color: #4ca1af;
+            margin-bottom: 10px;
+        }
+        .card h2 {
+            margin: 10px 0;
+            color: #2c3e50;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        .card p {
+            margin: 8px 0;
+            color: #555;
+            font-size: 16px;
+        }
+        .card p strong {
             color: #2c3e50;
         }
     </style>
