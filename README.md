@@ -40,9 +40,9 @@
     <div class="card">
         <div class="icon">📊</div>
         <h2>Especialista en Contabilidad</h2>
-        <p><strong>Nombre:</strong> Tu Nombre</p>
-        <p><strong>Teléfono:</strong> +00 123 456 789</p>
-        <p><strong>Email:</strong> correo@ejemplo.com</p>
+        <p><strong>Nombre:</strong> Johnson Cid</p>
+        <p><strong>Teléfono:</strong> +569 86241483</p>
+        <p><strong>Email:</strong> johncid1999@gmail.com</p>
         <p><strong>Horario:</strong> Lunes a Viernes, 9 AM - 6 PM</p>
     </div>
 </body>
